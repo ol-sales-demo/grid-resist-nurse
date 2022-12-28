@@ -13,8 +13,8 @@ The Collector supports several popular open-source protocols for receiving and s
 
 Data receiving, processing, and exporting is done using [Pipelines](#pipelines). The Collector can be configured to have one or more pipelines. Each pipeline includes:
 
-- a set of [Receivers](## Receivers) that receive the data
-- a series of optional [Processors](##processors) that get the data from receivers and process it
+- a set of [Receivers](#receivers) that receive the data
+- a series of optional [Processors](#processors) that get the data from receivers and process it
 - a set of [Exporters](#exporters) which get the data from processors and send it further outside the Collector.
 
 The same receiver can be included in multiple pipelines and multiple pipelines can include the same Exporter.
