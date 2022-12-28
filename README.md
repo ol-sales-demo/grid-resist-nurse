@@ -1,4 +1,4 @@
-# node-js-sample
+# Buy Now Pay Later
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
