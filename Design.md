@@ -9,6 +9,8 @@ OpenTelemetry Collector is an executable that can receive telemetry data, option
 
 The Collector supports several popular open-source protocols for receiving and sending telemetry data as well as offering a pluggable architecture for adding more protocols.
 
+![Overview](https://opentelemetry.io/img/otel_diagram.png)
+
 Data receiving, processing, and exporting is done using [Pipelines](#pipelines). The Collector can be configured to have one or more pipelines. Each pipeline includes:
 
 - a set of [Receivers](#receivers) that receive the data
