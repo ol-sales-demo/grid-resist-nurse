@@ -1,2 +1,2 @@
-# ZZZebras
+# Zebras
 content
